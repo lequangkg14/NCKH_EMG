@@ -1,0 +1,101 @@
+{
+  "subject_id": "S01",
+  "session_id": "test",
+  "donning_position": "A",
+  "arm_side": "left",
+  "sampling_rate_hz": 100,
+  "acquisition": {
+    "firmware": "emg_5ch_logger_v1_4",
+    "channels": 5,
+    "gpio_pins": [
+      34,
+      35,
+      32,
+      33,
+      25
+    ],
+    "acq_rate_hz": 1000,
+    "boxcar_ms": 20,
+    "output_rate_hz": 100,
+    "adc_attenuation": "11db",
+    "adc_resolution_bits": 12,
+    "serial_protocol": "SEQ,TIME_US,CH1..CH5"
+  },
+  "baseline_calibration": {},
+  "trials": [
+    {
+      "file": "raw/S01_test_test_T01_suspect.csv",
+      "gesture": "test",
+      "trial": 1,
+      "arm_side": "left",
+      "notes": "",
+      "cue_on_us": 1779618923,
+      "hold_start_us": 1780618923,
+      "hold_end_us": 1783618923,
+      "first_time_us": 1777628923,
+      "last_time_us": 1785618923,
+      "first_seq": 177735,
+      "sample_count": 800,
+      "status": "suspect",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          731,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          921,
+          3834,
+          910,
+          3552,
+          2787
+        ],
+        "ch_max": [
+          989,
+          4095,
+          985,
+          4071,
+          3248
+        ],
+        "low_ch_info": [],
+        "problems": [
+          "saturated_ch_2"
+        ]
+      }
+    }
+  ],
+  "logger_version": "1.8",
+  "serial_baud": 921600,
+  "csv_header": true,
+  "channel_names": [
+    "CH1",
+    "CH2",
+    "CH3",
+    "CH4",
+    "CH5"
+  ],
+  "timeline_ms": {
+    "rest_end": 2000,
+    "cue_end": 3000,
+    "hold_end": 6000,
+    "trial_end": 8000
+  },
+  "firmware_header": [
+    "# Board=ESP32 DevKit V1 (CHI DE TEST)",
+    "# AcqRate_Hz=1000 Window_ms=20 OutRate_Hz=100",
+    "# avg_read_us=40.0 per_tick_us=200 tick_interval_us=1000",
+    "# Format: SEQ,TIME_US,CH1,CH2,CH3,CH4,CH5"
+  ],
+  "date": "2026-10-08"
+}

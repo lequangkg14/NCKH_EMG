@@ -1,0 +1,1035 @@
+{
+  "subject_id": "S01",
+  "session_id": "Se01",
+  "donning_position": "A",
+  "arm_side": "right",
+  "sampling_rate_hz": 100,
+  "acquisition": {
+    "firmware": "emg_5ch_logger_v1_4",
+    "channels": 5,
+    "gpio_pins": [
+      34,
+      35,
+      32,
+      33,
+      25
+    ],
+    "acq_rate_hz": 1000,
+    "boxcar_ms": 20,
+    "output_rate_hz": 100,
+    "adc_attenuation": "11db",
+    "adc_resolution_bits": 12,
+    "serial_protocol": "SEQ,TIME_US,CH1..CH5"
+  },
+  "baseline_calibration": {},
+  "trials": [
+    {
+      "file": "raw/S01_Se01_power_grip_T01.csv",
+      "gesture": "power_grip",
+      "trial": 1,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 271818913,
+      "hold_start_us": 272838913,
+      "hold_end_us": 275828913,
+      "first_time_us": 269838913,
+      "last_time_us": 277838913,
+      "first_seq": 26956,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          166,
+          142,
+          2,
+          2,
+          0
+        ],
+        "ch_max": [
+          1957,
+          2561,
+          1526,
+          2582,
+          2243
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T02.csv",
+      "gesture": "power_grip",
+      "trial": 2,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 560348913,
+      "hold_start_us": 561348913,
+      "hold_end_us": 564348913,
+      "first_time_us": 557958913,
+      "last_time_us": 566348913,
+      "first_seq": 55768,
+      "sample_count": 840,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 840,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.39,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          97,
+          459,
+          233,
+          73,
+          0
+        ],
+        "ch_max": [
+          2081,
+          3173,
+          1855,
+          2512,
+          2714
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T03.csv",
+      "gesture": "power_grip",
+      "trial": 3,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 654288913,
+      "hold_start_us": 655288913,
+      "hold_end_us": 658288913,
+      "first_time_us": 652288913,
+      "last_time_us": 660288913,
+      "first_seq": 65201,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          164,
+          239,
+          163,
+          10,
+          0
+        ],
+        "ch_max": [
+          1786,
+          2410,
+          1613,
+          2444,
+          1840
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T04.csv",
+      "gesture": "power_grip",
+      "trial": 4,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 702538913,
+      "hold_start_us": 703538913,
+      "hold_end_us": 706538913,
+      "first_time_us": 700548913,
+      "last_time_us": 708538913,
+      "first_seq": 70027,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          161,
+          295,
+          85,
+          45,
+          3
+        ],
+        "ch_max": [
+          1695,
+          2253,
+          1369,
+          2055,
+          2177
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T05.csv",
+      "gesture": "power_grip",
+      "trial": 5,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 800988913,
+      "hold_start_us": 801988913,
+      "hold_end_us": 804988913,
+      "first_time_us": 798998913,
+      "last_time_us": 806988913,
+      "first_seq": 79872,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          332,
+          502,
+          358,
+          275,
+          45
+        ],
+        "ch_max": [
+          2360,
+          2894,
+          1553,
+          2459,
+          2426
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T06.csv",
+      "gesture": "power_grip",
+      "trial": 6,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 815178913,
+      "hold_start_us": 816178913,
+      "hold_end_us": 819178913,
+      "first_time_us": 813188913,
+      "last_time_us": 821178913,
+      "first_seq": 81291,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          102,
+          252,
+          144,
+          38,
+          0
+        ],
+        "ch_max": [
+          1931,
+          2233,
+          1390,
+          1875,
+          2244
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T07.csv",
+      "gesture": "power_grip",
+      "trial": 7,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 905098913,
+      "hold_start_us": 906098913,
+      "hold_end_us": 909098913,
+      "first_time_us": 903108913,
+      "last_time_us": 911098913,
+      "first_seq": 90283,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          309,
+          515,
+          418,
+          221,
+          82
+        ],
+        "ch_max": [
+          2364,
+          2697,
+          1816,
+          2641,
+          2616
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T08.csv",
+      "gesture": "power_grip",
+      "trial": 8,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 947128913,
+      "hold_start_us": 948128913,
+      "hold_end_us": 951128913,
+      "first_time_us": 945148913,
+      "last_time_us": 953128913,
+      "first_seq": 94487,
+      "sample_count": 799,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 799,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.98,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          356,
+          449,
+          353,
+          133,
+          29
+        ],
+        "ch_max": [
+          2450,
+          2973,
+          1632,
+          2807,
+          2681
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T09.csv",
+      "gesture": "power_grip",
+      "trial": 9,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 985658913,
+      "hold_start_us": 986668913,
+      "hold_end_us": 989658913,
+      "first_time_us": 983668913,
+      "last_time_us": 991668913,
+      "first_seq": 98339,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          78,
+          133,
+          302,
+          221,
+          38
+        ],
+        "ch_max": [
+          2394,
+          2808,
+          1489,
+          2425,
+          2807
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T10.csv",
+      "gesture": "power_grip",
+      "trial": 10,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 1148368913,
+      "hold_start_us": 1149368913,
+      "hold_end_us": 1152368913,
+      "first_time_us": 1146378913,
+      "last_time_us": 1154368913,
+      "first_seq": 114610,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          399,
+          723,
+          511,
+          444,
+          75
+        ],
+        "ch_max": [
+          2271,
+          2895,
+          1314,
+          2555,
+          2547
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T11.csv",
+      "gesture": "power_grip",
+      "trial": 11,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 1163358913,
+      "hold_start_us": 1164358913,
+      "hold_end_us": 1167308913,
+      "first_time_us": 1161358913,
+      "last_time_us": 1169358913,
+      "first_seq": 116108,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          362,
+          626,
+          373,
+          299,
+          98
+        ],
+        "ch_max": [
+          2355,
+          3068,
+          1276,
+          2798,
+          2550
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T12.csv",
+      "gesture": "power_grip",
+      "trial": 12,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 1173928913,
+      "hold_start_us": 1174928913,
+      "hold_end_us": 1177928913,
+      "first_time_us": 1171948913,
+      "last_time_us": 1179928913,
+      "first_seq": 117167,
+      "sample_count": 799,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 799,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.98,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          371,
+          416,
+          293,
+          241,
+          111
+        ],
+        "ch_max": [
+          1958,
+          2667,
+          1165,
+          2352,
+          2156
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T13.csv",
+      "gesture": "power_grip",
+      "trial": 13,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 1184038913,
+      "hold_start_us": 1185028913,
+      "hold_end_us": 1188028913,
+      "first_time_us": 1182058913,
+      "last_time_us": 1190038913,
+      "first_seq": 118178,
+      "sample_count": 799,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 799,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.98,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          350,
+          309,
+          415,
+          261,
+          81
+        ],
+        "ch_max": [
+          2287,
+          2692,
+          1467,
+          2783,
+          3019
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T14_aborted.csv",
+      "gesture": "power_grip",
+      "trial": 14,
+      "arm_side": "left",
+      "notes": "",
+      "cue_on_us": 2555618920,
+      "hold_start_us": null,
+      "hold_end_us": null,
+      "first_time_us": 2553628920,
+      "last_time_us": 2555888920,
+      "first_seq": 255335,
+      "sample_count": 227,
+      "status": "aborted",
+      "abort_reason": "user",
+      "qc": {
+        "n_samples": 227,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 2.26,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          13,
+          2,
+          58,
+          0,
+          0
+        ],
+        "ch_max": [
+          137,
+          175,
+          239,
+          32,
+          6
+        ],
+        "low_ch_info": [
+          5
+        ],
+        "problems": [
+          "count_227",
+          "dead_ch_5"
+        ]
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T14.csv",
+      "gesture": "power_grip",
+      "trial": 14,
+      "arm_side": "left",
+      "notes": "",
+      "cue_on_us": 2561578920,
+      "hold_start_us": 2562578920,
+      "hold_end_us": 2565578920,
+      "first_time_us": 2559588920,
+      "last_time_us": 2567588920,
+      "first_seq": 255931,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "ch_max": [
+          2532,
+          2495,
+          2379,
+          2416,
+          3228
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T15.csv",
+      "gesture": "power_grip",
+      "trial": 15,
+      "arm_side": "left",
+      "notes": "",
+      "cue_on_us": 2570948920,
+      "hold_start_us": 2571948920,
+      "hold_end_us": 2574948920,
+      "first_time_us": 2568948920,
+      "last_time_us": 2576948920,
+      "first_seq": 256867,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          0,
+          0,
+          36,
+          0,
+          0
+        ],
+        "ch_max": [
+          1962,
+          2430,
+          2456,
+          2390,
+          2471
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T16.csv",
+      "gesture": "power_grip",
+      "trial": 16,
+      "arm_side": "left",
+      "notes": "",
+      "cue_on_us": 2580028920,
+      "hold_start_us": 2581028920,
+      "hold_end_us": 2584028920,
+      "first_time_us": 2578038920,
+      "last_time_us": 2586028920,
+      "first_seq": 257776,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          0,
+          0,
+          39,
+          0,
+          0
+        ],
+        "ch_max": [
+          2336,
+          2921,
+          2482,
+          2806,
+          3075
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T17.csv",
+      "gesture": "power_grip",
+      "trial": 17,
+      "arm_side": "left",
+      "notes": "",
+      "cue_on_us": 2589288920,
+      "hold_start_us": 2590288920,
+      "hold_end_us": 2593288920,
+      "first_time_us": 2587298920,
+      "last_time_us": 2595288920,
+      "first_seq": 258702,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          0,
+          0,
+          74,
+          0,
+          0
+        ],
+        "ch_max": [
+          1861,
+          2113,
+          1872,
+          1934,
+          2269
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T18.csv",
+      "gesture": "power_grip",
+      "trial": 18,
+      "arm_side": "left",
+      "notes": "",
+      "cue_on_us": 2599338920,
+      "hold_start_us": 2600328920,
+      "hold_end_us": 2603338920,
+      "first_time_us": 2597338920,
+      "last_time_us": 2605338920,
+      "first_seq": 259706,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          0,
+          0,
+          66,
+          0,
+          0
+        ],
+        "ch_max": [
+          1869,
+          2341,
+          2208,
+          2705,
+          2906
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S01_Se01_power_grip_T19.csv",
+      "gesture": "power_grip",
+      "trial": 19,
+      "arm_side": "left",
+      "notes": "",
+      "cue_on_us": 2608408920,
+      "hold_start_us": 2609408920,
+      "hold_end_us": 2612408920,
+      "first_time_us": 2606418920,
+      "last_time_us": 2614408920,
+      "first_seq": 260614,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10000,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          0,
+          0,
+          49,
+          0,
+          0
+        ],
+        "ch_max": [
+          1705,
+          2133,
+          1679,
+          1962,
+          2108
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    }
+  ],
+  "logger_version": "1.8",
+  "serial_baud": 921600,
+  "csv_header": true,
+  "channel_names": [
+    "CH1",
+    "CH2",
+    "CH3",
+    "CH4",
+    "CH5"
+  ],
+  "timeline_ms": {
+    "rest_end": 2000,
+    "cue_end": 3000,
+    "hold_end": 6000,
+    "trial_end": 8000
+  },
+  "firmware_header": [
+    "# Board=ESP32 DevKit V1 (CHI DE TEST)",
+    "# AcqRate_Hz=1000 Window_ms=20 OutRate_Hz=100",
+    "# avg_read_us=40.0 per_tick_us=200 tick_interval_us=1000",
+    "# Format: SEQ,TIME_US,CH1,CH2,CH3,CH4,CH5"
+  ],
+  "date": "2026-10-08"
+}
