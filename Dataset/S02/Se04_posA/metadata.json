@@ -1,0 +1,784 @@
+{
+  "subject_id": "S02",
+  "session_id": "Se04",
+  "donning_position": "A",
+  "arm_side": "right",
+  "sampling_rate_hz": 100,
+  "acquisition": {
+    "firmware": "emg_4ch_logger_v1_4",
+    "channels": 4,
+    "gpio_pins": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "acq_rate_hz": 1000,
+    "boxcar_ms": 20,
+    "output_rate_hz": 100,
+    "adc_attenuation": "11db",
+    "adc_resolution_bits": 12,
+    "serial_protocol": "SEQ,TIME_US,CH1..CH4"
+  },
+  "baseline_calibration": {},
+  "trials": [
+    {
+      "file": "raw/S02_Se04_hi_T01.csv",
+      "gesture": "hi",
+      "trial": 1,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 763565717,
+      "hold_start_us": 764565717,
+      "hold_end_us": 767555717,
+      "first_time_us": 761575717,
+      "last_time_us": 769555717,
+      "first_seq": 76131,
+      "sample_count": 799,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 799,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.98,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          72,
+          81,
+          73,
+          10
+        ],
+        "ch_max": [
+          1034,
+          1162,
+          847,
+          810
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T02.csv",
+      "gesture": "hi",
+      "trial": 2,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 773365717,
+      "hold_start_us": 774365717,
+      "hold_end_us": 777345717,
+      "first_time_us": 771375717,
+      "last_time_us": 779365717,
+      "first_seq": 77111,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          100,
+          98,
+          74,
+          11
+        ],
+        "ch_max": [
+          1260,
+          1168,
+          871,
+          1098
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T03.csv",
+      "gesture": "hi",
+      "trial": 3,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 785045717,
+      "hold_start_us": 786035717,
+      "hold_end_us": 789045717,
+      "first_time_us": 783065717,
+      "last_time_us": 791045717,
+      "first_seq": 78280,
+      "sample_count": 799,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 799,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.98,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          114,
+          92,
+          65,
+          5
+        ],
+        "ch_max": [
+          1047,
+          1329,
+          827,
+          857
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T04.csv",
+      "gesture": "hi",
+      "trial": 4,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 794045717,
+      "hold_start_us": 795045717,
+      "hold_end_us": 798045717,
+      "first_time_us": 792055717,
+      "last_time_us": 800045717,
+      "first_seq": 79179,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          114,
+          72,
+          67,
+          2
+        ],
+        "ch_max": [
+          1232,
+          1157,
+          693,
+          906
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T05.csv",
+      "gesture": "hi",
+      "trial": 5,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 803355717,
+      "hold_start_us": 804365717,
+      "hold_end_us": 807355717,
+      "first_time_us": 801375718,
+      "last_time_us": 809355717,
+      "first_seq": 80111,
+      "sample_count": 799,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 799,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.98,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          119,
+          110,
+          66,
+          9
+        ],
+        "ch_max": [
+          1492,
+          1610,
+          849,
+          1010
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T06.csv",
+      "gesture": "hi",
+      "trial": 6,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 812805717,
+      "hold_start_us": 813805717,
+      "hold_end_us": 816805717,
+      "first_time_us": 810815717,
+      "last_time_us": 818805717,
+      "first_seq": 81055,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          151,
+          97,
+          85,
+          1
+        ],
+        "ch_max": [
+          585,
+          631,
+          405,
+          382
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T07.csv",
+      "gesture": "hi",
+      "trial": 7,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 822355717,
+      "hold_start_us": 823365717,
+      "hold_end_us": 826355717,
+      "first_time_us": 820365717,
+      "last_time_us": 828365717,
+      "first_seq": 82010,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          150,
+          131,
+          78,
+          40
+        ],
+        "ch_max": [
+          686,
+          826,
+          517,
+          463
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T08.csv",
+      "gesture": "hi",
+      "trial": 8,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 831275717,
+      "hold_start_us": 832275717,
+      "hold_end_us": 835275717,
+      "first_time_us": 829275717,
+      "last_time_us": 837275717,
+      "first_seq": 82901,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          186,
+          171,
+          87,
+          56
+        ],
+        "ch_max": [
+          873,
+          877,
+          979,
+          846
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T09.csv",
+      "gesture": "hi",
+      "trial": 9,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 840915717,
+      "hold_start_us": 841915717,
+      "hold_end_us": 844915717,
+      "first_time_us": 838925717,
+      "last_time_us": 846915717,
+      "first_seq": 83866,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          159,
+          151,
+          87,
+          52
+        ],
+        "ch_max": [
+          808,
+          704,
+          666,
+          424
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T10.csv",
+      "gesture": "hi",
+      "trial": 10,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 851405717,
+      "hold_start_us": 852415717,
+      "hold_end_us": 855405717,
+      "first_time_us": 849415717,
+      "last_time_us": 857405717,
+      "first_seq": 84915,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          89,
+          82,
+          64,
+          2
+        ],
+        "ch_max": [
+          929,
+          768,
+          619,
+          610
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T11.csv",
+      "gesture": "hi",
+      "trial": 11,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 861185717,
+      "hold_start_us": 862175717,
+      "hold_end_us": 865185717,
+      "first_time_us": 859185717,
+      "last_time_us": 867185717,
+      "first_seq": 85892,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          48,
+          47,
+          57,
+          0
+        ],
+        "ch_max": [
+          869,
+          1126,
+          595,
+          511
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T12.csv",
+      "gesture": "hi",
+      "trial": 12,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 870285717,
+      "hold_start_us": 871285717,
+      "hold_end_us": 874285717,
+      "first_time_us": 868295717,
+      "last_time_us": 876285717,
+      "first_seq": 86803,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          67,
+          57,
+          57,
+          0
+        ],
+        "ch_max": [
+          754,
+          884,
+          546,
+          612
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T13.csv",
+      "gesture": "hi",
+      "trial": 13,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 879275717,
+      "hold_start_us": 880275717,
+      "hold_end_us": 883275717,
+      "first_time_us": 877275717,
+      "last_time_us": 885275717,
+      "first_seq": 87701,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          61,
+          59,
+          55,
+          0
+        ],
+        "ch_max": [
+          822,
+          1048,
+          668,
+          690
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T14.csv",
+      "gesture": "hi",
+      "trial": 14,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 888425717,
+      "hold_start_us": 889425717,
+      "hold_end_us": 892425717,
+      "first_time_us": 886435717,
+      "last_time_us": 894425717,
+      "first_seq": 88617,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          51,
+          46,
+          51,
+          0
+        ],
+        "ch_max": [
+          823,
+          926,
+          822,
+          517
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T15.csv",
+      "gesture": "hi",
+      "trial": 15,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 897335717,
+      "hold_start_us": 898335717,
+      "hold_end_us": 901335717,
+      "first_time_us": 895345717,
+      "last_time_us": 903335717,
+      "first_seq": 89508,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          46,
+          42,
+          52,
+          0
+        ],
+        "ch_max": [
+          782,
+          1516,
+          547,
+          506
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se04_hi_T16.csv",
+      "gesture": "hi",
+      "trial": 16,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 907065717,
+      "hold_start_us": 908065717,
+      "hold_end_us": 911065717,
+      "first_time_us": 905075717,
+      "last_time_us": 913065717,
+      "first_seq": 90481,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          48,
+          42,
+          52,
+          0
+        ],
+        "ch_max": [
+          784,
+          929,
+          620,
+          510
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    }
+  ],
+  "logger_version": "1.8",
+  "serial_baud": 921600,
+  "csv_header": true,
+  "channel_names": [
+    "CH1",
+    "CH2",
+    "CH3",
+    "CH4"
+  ],
+  "timeline_ms": {
+    "rest_end": 2000,
+    "cue_end": 3000,
+    "hold_end": 6000,
+    "trial_end": 8000
+  },
+  "firmware_header": [
+    "# Board=ESP32-S3",
+    "# AcqRate_Hz=1000 Window_ms=20 OutRate_Hz=100",
+    "# avg_read_us=46.4 per_tick_us=186 tick_interval_us=1000",
+    "# Format: SEQ,TIME_US,CH1,CH2,CH3,CH4,CH5"
+  ],
+  "date": "2026-10-10"
+}

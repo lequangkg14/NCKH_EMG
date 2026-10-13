@@ -1,10 +1,10 @@
 """
-EMG Logger - v1.8 (ban thu chinh thuc, 5 kenh, firmware v1.4)
+EMG Logger - v1.8 (ban thu chinh thuc, 4 kenh, firmware v1.4)
 ============================================================
-Doc du lieu EMG 5 kenh qua Serial (ESP32-S3) va luu thanh CSV theo
+Doc du lieu EMG 4 kenh qua Serial (ESP32-S3) va luu thanh CSV theo
 protocol da dong bang cua du an:
 
-    SEQ,TIME_US,CH1,CH2,CH3,CH4,CH5
+    SEQ,TIME_US,CH1,CH2,CH3,CH4
 
 Timeline 1 trial (8s): Rest(2s) -> Cue(1s) -> Hold(3s) -> Relax(2s)
 Marker (cue_on_us, hold_start_us, hold_end_us) lay theo TIME_US cua ESP32.
@@ -25,11 +25,11 @@ Nang cap so voi Sprint 1:
           tick 10ms de marker sat thoi diem doi trang thai.
     [CSV] Them dong header (tat bang WRITE_CSV_HEADER = False).
 
-Thich ung firmware v1.3 (lay mau 1 kHz, trung binh 20 ms, xuat 100 Hz):
+Thich ung firmware v1.3/v1.4 (lay mau 1 kHz, trung binh 20 ms, xuat 100 Hz):
     [RATE] NOMINAL_RATE_HZ / EXPECTED_SAMPLES lay tu ACQ_CONFIG (100 Hz, 800 mau/trial)
            thay cho 500 Hz / 4000 mau cu.
     [QC]   Them kiem tra timing: max_dt giua 2 mau > 2 chu ky (firmware bi tre nhip).
-    [FW]   Doc banner '#' cua firmware: canh bao neu khong phai v1.3 hoac AcqRate /
+    [FW]   Doc banner '#' cua firmware: canh bao neu khong phai v1.4 hoac AcqRate /
            Window / OutRate lech ACQ_CONFIG; hien canh bao WARNING cua firmware.
     [META] metadata.json ghi them 'acquisition' (ACQ_CONFIG); sampling_rate_hz KHONG ghi
            de session cu - neu lech cau hinh hien tai thi canh bao trong log.
@@ -40,8 +40,8 @@ Thich ung firmware v1.3 (lay mau 1 kHz, trung binh 20 ms, xuat 100 Hz):
            (nen luc nghi, muc gong, ty le, nhieu, bao hoa, kenh chet) + duong truyen (mat goi, toc do,
            timing) va bao OK (co the thu data) / CANH BAO / LOI kenh nao.
     [QC]   v1.7.1: kenh "chet" (max < DEAD_CH_MAX) KHONG con bi danh dau o trial rest; ghi vao qc.low_ch_info.
-    [CH]   v1.7: 5 kenh (NUM_CH lay tu ACQ_CONFIG["channels"]); dong serial hop le co NUM_CH + 2 cot.
-           CH1..CH5 = GPIO 2,4,5,6,7 (= CH2..CH6 cu cua ban 6 kenh).
+    [CH]   v1.7: 4 kenh (NUM_CH lay tu ACQ_CONFIG["channels"]); dong serial hop le co NUM_CH + 2 cot.
+           CH1..CH4 = GPIO 1,2,4,5.
 
 Khong lam: chua ve realtime plot (PyQtGraph) - danh cho sprint sau.
 """
@@ -71,22 +71,22 @@ DATASET_ROOT = os.path.normpath(
     os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "Dataset")
 )
 
-# Cau hinh thu CHUAN (khop firmware emg_6ch_logger_v1_3.ino) - ghi vao metadata.json
+# Cau hinh thu CHUAN (khop firmware emg_4ch_logger_v1_4.ino) - ghi vao metadata.json
 # Neu doi firmware/cau hinh thi sua o day va coi do la cau hinh moi.
 ACQ_CONFIG = {
-    "firmware": "emg_5ch_logger_v1_4",
-    "channels": 5,              # 5 kenh (cam bien kenh 1 cu bi hong)
-    "gpio_pins": [34, 35, 32, 33, 25],   # CH1..CH5
+    "firmware": "emg_4ch_logger_v1_4",
+    "channels": 4,              # 4 kenh
+    "gpio_pins": [1, 2, 4, 5],   # CH1..CH4
     "acq_rate_hz": 1000,        # toc do lay mau ADC noi bo
     "boxcar_ms": 20,            # trung binh truot 20 ms (triet 50/100 Hz)
     "output_rate_hz": 100,      # toc do xuat ra serial
     "adc_attenuation": "11db",
     "adc_resolution_bits": 12,
-    "serial_protocol": "SEQ,TIME_US,CH1..CH5",
+    "serial_protocol": "SEQ,TIME_US,CH1..CH4",
 }
 FW_BANNER_VERSION = "v1.4"      # chuoi phai xuat hien trong dong '# ... READY ...' cua firmware
 
-NUM_CH = ACQ_CONFIG["channels"]   # 5 kenh
+NUM_CH = ACQ_CONFIG["channels"]   # 4 kenh
 NOMINAL_RATE_HZ = ACQ_CONFIG["output_rate_hz"]   # 100 Hz (toc do xuat cua firmware v1.4)
 ADC_MAX = 4095
 CSV_HEADER = "SEQ,TIME_US," + ",".join(f"CH{i + 1}" for i in range(NUM_CH))
@@ -275,9 +275,9 @@ def save_custom_gestures(custom):
 
 class SerialReaderThread(QThread):
     """Doc lien tuc tu Serial, khong block UI. Parse dung protocol:
-    SEQ,TIME_US,CH1,CH2,CH3,CH4,CH5
+    SEQ,TIME_US,CH1,CH2,CH3,CH4
 
-    sample_received phat 1 tuple (seq, time_us, (ch1..ch6), raw_line).
+    sample_received phat 1 tuple (seq, time_us, (ch1..ch4), raw_line).
     Dung Signal(object) vi TIME_US la uint32 - Signal(int) chi 32-bit co dau.
     """
     sample_received = Signal(object)
@@ -473,7 +473,7 @@ class MainWindow(QMainWindow):
         self.test_btn = QPushButton("TEST PHAN CUNG (nam chat tay, KHONG luu file)")
         self.test_btn.setStyleSheet("font-size: 14px; padding: 6px;")
         self.test_btn.setToolTip(
-            "Chay dung 8 s nhu trial that voi cu dong nam chat tay, kiem tra 5 kenh + duong truyen.\n"
+            "Chay dung 8 s nhu trial that voi cu dong nam chat tay, kiem tra 4 kenh + duong truyen.\n"
             "Khong ghi CSV, khong ghi metadata.")
         self.test_btn.clicked.connect(self._start_test)
 
@@ -562,7 +562,7 @@ class MainWindow(QMainWindow):
             self._check_firmware_line(line)
 
     def _check_firmware_line(self, line):
-        """Doi chieu banner firmware v1.3 voi ACQ_CONFIG; chi canh bao, khong chan."""
+        """Doi chieu banner firmware v1.4 voi ACQ_CONFIG; chi canh bao, khong chan."""
         if "READY" in line and FW_BANNER_VERSION not in line:
             self._log(f"CANH BAO: firmware khong phai {FW_BANNER_VERSION} ({line}). "
                       f"Nap lai {ACQ_CONFIG['firmware']}.ino.")

@@ -1,0 +1,738 @@
+{
+  "subject_id": "S02",
+  "session_id": "Se06",
+  "donning_position": "A",
+  "arm_side": "right",
+  "sampling_rate_hz": 100,
+  "acquisition": {
+    "firmware": "emg_4ch_logger_v1_4",
+    "channels": 4,
+    "gpio_pins": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "acq_rate_hz": 1000,
+    "boxcar_ms": 20,
+    "output_rate_hz": 100,
+    "adc_attenuation": "11db",
+    "adc_resolution_bits": 12,
+    "serial_protocol": "SEQ,TIME_US,CH1..CH4"
+  },
+  "baseline_calibration": {},
+  "trials": [
+    {
+      "file": "raw/S02_Se06_thumb_extension_T01.csv",
+      "gesture": "thumb_extension",
+      "trial": 1,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 939015717,
+      "hold_start_us": 940025717,
+      "hold_end_us": 943025717,
+      "first_time_us": 937025717,
+      "last_time_us": 945015717,
+      "first_seq": 93676,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          36,
+          37,
+          54,
+          0
+        ],
+        "ch_max": [
+          2043,
+          2171,
+          2812,
+          2625
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T02.csv",
+      "gesture": "thumb_extension",
+      "trial": 2,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 949785717,
+      "hold_start_us": 950785717,
+      "hold_end_us": 953785717,
+      "first_time_us": 947805717,
+      "last_time_us": 955785717,
+      "first_seq": 94754,
+      "sample_count": 799,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 799,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.98,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          44,
+          35,
+          55,
+          0
+        ],
+        "ch_max": [
+          1160,
+          1525,
+          2145,
+          2039
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T03.csv",
+      "gesture": "thumb_extension",
+      "trial": 3,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 961985717,
+      "hold_start_us": 962995717,
+      "hold_end_us": 965985717,
+      "first_time_us": 960005717,
+      "last_time_us": 967985717,
+      "first_seq": 95974,
+      "sample_count": 799,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 799,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.98,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          43,
+          40,
+          51,
+          0
+        ],
+        "ch_max": [
+          1215,
+          1560,
+          1773,
+          1480
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T04.csv",
+      "gesture": "thumb_extension",
+      "trial": 4,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 971285717,
+      "hold_start_us": 972285717,
+      "hold_end_us": 975285717,
+      "first_time_us": 969295717,
+      "last_time_us": 977285717,
+      "first_seq": 96903,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          45,
+          54,
+          50,
+          0
+        ],
+        "ch_max": [
+          1232,
+          1448,
+          1387,
+          1272
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T05.csv",
+      "gesture": "thumb_extension",
+      "trial": 5,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 980275717,
+      "hold_start_us": 981275717,
+      "hold_end_us": 984265717,
+      "first_time_us": 978285717,
+      "last_time_us": 986275717,
+      "first_seq": 97802,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          42,
+          50,
+          50,
+          0
+        ],
+        "ch_max": [
+          1784,
+          2169,
+          2061,
+          1672
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T06.csv",
+      "gesture": "thumb_extension",
+      "trial": 6,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 990955717,
+      "hold_start_us": 991955717,
+      "hold_end_us": 994955717,
+      "first_time_us": 988955717,
+      "last_time_us": 996955717,
+      "first_seq": 98869,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          40,
+          48,
+          51,
+          0
+        ],
+        "ch_max": [
+          1429,
+          1603,
+          1618,
+          1578
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T07.csv",
+      "gesture": "thumb_extension",
+      "trial": 7,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 999895717,
+      "hold_start_us": 1000905717,
+      "hold_end_us": 1003905717,
+      "first_time_us": 997915717,
+      "last_time_us": 1005905717,
+      "first_seq": 99765,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          40,
+          54,
+          60,
+          0
+        ],
+        "ch_max": [
+          2389,
+          2589,
+          2754,
+          2246
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T08.csv",
+      "gesture": "thumb_extension",
+      "trial": 8,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 1008875717,
+      "hold_start_us": 1009875717,
+      "hold_end_us": 1012875717,
+      "first_time_us": 1006875717,
+      "last_time_us": 1014875717,
+      "first_seq": 100661,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          42,
+          49,
+          54,
+          0
+        ],
+        "ch_max": [
+          1632,
+          1810,
+          2177,
+          1828
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T09.csv",
+      "gesture": "thumb_extension",
+      "trial": 9,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 1017805717,
+      "hold_start_us": 1018805717,
+      "hold_end_us": 1021805717,
+      "first_time_us": 1015825717,
+      "last_time_us": 1023805717,
+      "first_seq": 101556,
+      "sample_count": 799,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 799,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.98,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          43,
+          50,
+          55,
+          0
+        ],
+        "ch_max": [
+          1529,
+          1529,
+          1501,
+          1497
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T10.csv",
+      "gesture": "thumb_extension",
+      "trial": 10,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 1026665717,
+      "hold_start_us": 1027665717,
+      "hold_end_us": 1030665717,
+      "first_time_us": 1024685717,
+      "last_time_us": 1032665717,
+      "first_seq": 102442,
+      "sample_count": 799,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 799,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.98,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          44,
+          56,
+          58,
+          0
+        ],
+        "ch_max": [
+          1245,
+          1299,
+          1266,
+          1256
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T11.csv",
+      "gesture": "thumb_extension",
+      "trial": 11,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 1036775717,
+      "hold_start_us": 1037775717,
+      "hold_end_us": 1040775717,
+      "first_time_us": 1034795717,
+      "last_time_us": 1042775717,
+      "first_seq": 103453,
+      "sample_count": 799,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 799,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.98,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          43,
+          60,
+          57,
+          0
+        ],
+        "ch_max": [
+          1570,
+          1596,
+          2071,
+          1639
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T12.csv",
+      "gesture": "thumb_extension",
+      "trial": 12,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 1046615717,
+      "hold_start_us": 1047615717,
+      "hold_end_us": 1050615717,
+      "first_time_us": 1044625717,
+      "last_time_us": 1052625717,
+      "first_seq": 104436,
+      "sample_count": 801,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 801,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 8.0,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          41,
+          53,
+          55,
+          0
+        ],
+        "ch_max": [
+          1402,
+          1742,
+          1620,
+          1753
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T13.csv",
+      "gesture": "thumb_extension",
+      "trial": 13,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 1055495717,
+      "hold_start_us": 1056495717,
+      "hold_end_us": 1059495717,
+      "first_time_us": 1053515717,
+      "last_time_us": 1061495717,
+      "first_seq": 105325,
+      "sample_count": 799,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 799,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.98,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          43,
+          53,
+          49,
+          0
+        ],
+        "ch_max": [
+          1163,
+          1460,
+          1543,
+          1148
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T14.csv",
+      "gesture": "thumb_extension",
+      "trial": 14,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 1064245717,
+      "hold_start_us": 1065255717,
+      "hold_end_us": 1068245717,
+      "first_time_us": 1062255717,
+      "last_time_us": 1070245717,
+      "first_seq": 106199,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          41,
+          62,
+          58,
+          0
+        ],
+        "ch_max": [
+          1507,
+          1600,
+          1720,
+          1606
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    },
+    {
+      "file": "raw/S02_Se06_thumb_extension_T15.csv",
+      "gesture": "thumb_extension",
+      "trial": 15,
+      "arm_side": "right",
+      "notes": "",
+      "cue_on_us": 1073295717,
+      "hold_start_us": 1074295717,
+      "hold_end_us": 1077295717,
+      "first_time_us": 1071305717,
+      "last_time_us": 1079295717,
+      "first_seq": 107104,
+      "sample_count": 800,
+      "status": "complete",
+      "abort_reason": null,
+      "qc": {
+        "n_samples": 800,
+        "expected_samples": 800,
+        "rate_hz": 100.0,
+        "duration_s": 7.99,
+        "lost_packets": 0,
+        "seq_resets": 0,
+        "bad_lines": 0,
+        "max_dt_us": 10001,
+        "clip_count": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "ch_min": [
+          36,
+          44,
+          58,
+          0
+        ],
+        "ch_max": [
+          1884,
+          1934,
+          2700,
+          2159
+        ],
+        "low_ch_info": [],
+        "problems": []
+      }
+    }
+  ],
+  "logger_version": "1.8",
+  "serial_baud": 921600,
+  "csv_header": true,
+  "channel_names": [
+    "CH1",
+    "CH2",
+    "CH3",
+    "CH4"
+  ],
+  "timeline_ms": {
+    "rest_end": 2000,
+    "cue_end": 3000,
+    "hold_end": 6000,
+    "trial_end": 8000
+  },
+  "firmware_header": [
+    "# Board=ESP32-S3",
+    "# AcqRate_Hz=1000 Window_ms=20 OutRate_Hz=100",
+    "# avg_read_us=46.4 per_tick_us=186 tick_interval_us=1000",
+    "# Format: SEQ,TIME_US,CH1,CH2,CH3,CH4,CH5"
+  ],
+  "date": "2026-10-10"
+}

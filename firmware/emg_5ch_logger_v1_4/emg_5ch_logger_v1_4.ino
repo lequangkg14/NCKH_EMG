@@ -30,10 +30,10 @@
 // ======= Chan ADC1. S3: GPIO1..10 (tranh GPIO3). ESP32 thuong: GPIO32..39 =======
 // Chan ADC1 theo loai board (tu nhan biet luc bien dich)
 #if defined(CONFIG_IDF_TARGET_ESP32S3)
-  const uint8_t EMG_PIN[NUM_CHANNELS] = {2, 4, 5, 6, 7};        // ESP32-S3: ADC1 (BOARD CHINH)
+  const uint8_t EMG_PIN[NUM_CHANNELS] = {1, 2, 4, 5, 6};        // ESP32-S3: ADC1 (BOARD CHINH)
   #define BOARD_NAME "ESP32-S3"
 #elif defined(CONFIG_IDF_TARGET_ESP32)
-  const uint8_t EMG_PIN[NUM_CHANNELS] = {34, 35, 32, 33, 25};   // ESP32 DevKit V1: ADC1 (CHI DE TEST)
+  const uint8_t EMG_PIN[NUM_CHANNELS] = {13, 12, 32, 33, 25};   // ESP32 DevKit V1: ADC1 (CHI DE TEST)
   #define BOARD_NAME "ESP32 DevKit V1 (CHI DE TEST)"
 #else
   #error "Board chua ho tro: chi ESP32-S3 va ESP32 (DevKit V1)"
